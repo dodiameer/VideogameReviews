@@ -27,7 +27,7 @@ export default function Layout({ children, home }) {
           <>
             <img
               src="/images/profile.jpg"
-              className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
+              className={`${styles.headerHomeImage} ${utilStyles.roundedAvatar}`}
               alt={siteTitle}
             />
             <h1 className={utilStyles.heading2Xl}>{siteTitle}</h1>
